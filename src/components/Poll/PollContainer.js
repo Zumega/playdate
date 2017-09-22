@@ -33,7 +33,6 @@ class PollContainer extends Component {
       }
     }
 
-
     this.setState({
       options: items,
       pollClosed: true

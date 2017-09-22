@@ -5,6 +5,7 @@ import moment from 'moment';
 const Date = ({date}) => {
   return (
     <span className="eventDate">
+      {/* TODO: Do I want this big here? */}
       {/* <span class="sticky" ng-if="event.endDate"> */}
         {/* {{event.daysLeft}} days left */}
       {/* </span> */}

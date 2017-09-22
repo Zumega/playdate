@@ -15,7 +15,7 @@ class PollClosed extends Component {
             poll.map((item, index) => (
               <li key={item.id}>
                 <strong>{item.label}:</strong>
-                <div className="graphBar" style={{ 'width': setItemWidth(item.total)}}>
+                <div className="graphBar" style={{'width': setItemWidth(item.total)}}>
                   <span>{item.total} total votes</span>
                 </div>
               </li>

@@ -52,7 +52,7 @@ class SlideShow extends Component {
     let count = this.showLength * 1;
     let newState = [];
 
-    // move all active to next image
+    // move active to next image
     while (count--) {
       newState.unshift({...this.state.showItems[count]});
       newState[0].active = nextIndex === count;      

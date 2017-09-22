@@ -2,15 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class NewsContainer extends Component {
-  constructor(
-    props, 
-    context
-  ) {
-    super(props, context);
-
-    // this.rediretToAddCoursePage = this.rediretToAddCoursePage.bind(this);
-  }
-
   render() {
     const {
       title, 

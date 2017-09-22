@@ -2,17 +2,47 @@
 #linkDump {}
 #linkDump ul {
   padding: 0;
-  width: 200px;
-}
-#linkDump ul ul {
-   border-top: none;
-   border-right: none;
-   border-bottom: 1px solid #000;
-   border-left: 1px solid #000;
-   margin-bottom: 20px;
+  margin: 0;
 }
 #linkDump ul li {
-  margin: 0 0 10px  30px;
+  margin: 0 0 20px 0;
   list-style: none;
+}
+#linkDump ul {
+  margin-left: 10px;
+}
+#linkDump h2 {
+  font-size: 20px;
+}
+#linkDump h2.header {
+  background: #aaa;
+  border-bottom: 2px solid #000;
+  padding: 0 5px;
+  line-height: 1.6;
+  position: relative;
+}
+#linkDump h2.header span {
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-top: 10px solid #b905de;
+  border-right: 10px solid #b905de;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#linkDump .year {}
+#linkDump .month {}
+#linkDump .day li {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #666;
+  padding-bottom: 19px;
+}
+#linkDump .day li:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+  padding-bottom: 0;
 }
 /* LINK DUMP ===================== */

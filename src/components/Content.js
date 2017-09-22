@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import moment from 'moment';
-
 import '../css/Content.css';
-
 import SectionHeader from './SectionHeader';
 import Image from './Common/Image';
 import Video from './Video';

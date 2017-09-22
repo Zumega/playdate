@@ -11,7 +11,7 @@ class SlideShowContainer extends Component {
     } = this.props;
 
     return (
-      <div className='slideshowContainer'>
+      <div className="slideshowContainer">
         <SlideShow content={slideshow} postDate={postDate} />
       </div>
     );

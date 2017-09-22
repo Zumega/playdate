@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 const Person = ({person}) => {
   if (person) {
     return (
-      <h4 className="postedBy">
+      <div className="author">
         Posted by: {person}
-      </h4>
+      </div>
     );
   }
 

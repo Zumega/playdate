@@ -1,41 +1,40 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Header from './Header';
-import Day from './Day';
+import Month from './Month';
 import _ from 'lodash';
 
-
-const Month = ({ month, date }) => {
-  function setMonth (month) {
+const Year = ({ year, date }) => {
+  function setYear(month) {
     let data = [];
     let countIndex = 0;
 
-    _.each(month, (day, key) => {
+    _.each(year, (month, key) => {
       data.push((
         <li key={`${key}_${countIndex++}`}>
-          <Day day={day} date={key} />
+          <Month month={month} date={key} />
         </li>
       ));
     })
-    
+
     return data;
   }
 
   return (
     <div>
       <Header date={date} /> 
-      <ul className="month">
+      <ul className="year">
         {
-          setMonth(month)
+          setYear(year)
         }
       </ul>
     </div>
   );
 }
 
-Month.propTypes = {
-  month: PropTypes.object.isRequired,
+Year.propTypes = {
+  year: PropTypes.object.isRequired,
   date: PropTypes.string.isRequired
 }
 
-export default Month;
+export default Year;

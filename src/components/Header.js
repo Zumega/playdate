@@ -8,6 +8,7 @@ const Header = () => {
       <h1>
         <Link to="/">Play Date</Link>
       </h1>
+      {/* TODO: Do I need a menu? */}
       {/* <nav ng-if="vm.menu.length >= 1">
         <a ng-href="nav.url" ng-repeat='nav in vm.menu'>
           {{nav.text}}
