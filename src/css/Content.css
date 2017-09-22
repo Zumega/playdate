@@ -1,0 +1,30 @@
+/* HOME ===================== */
+.event {
+  border-radius: 5px;
+}
+.event h2 {
+  position: relative;
+  font-family: 'Righteous', sans-serif;
+  font-size: 1.7em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.event .eventDate {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: .5em;
+  line-height: 1.24;
+  text-align: right;
+}
+.event .eventDate .sticky {
+  display: block;
+}
+.event.sticky {
+  width: 80%;
+  margin: 0 auto 50px auto;
+}
+.event .postedBy {
+  font-size: .7em
+}
+/* HOME ===================== */

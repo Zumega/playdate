@@ -1,0 +1,228 @@
+/* SETTINGS
+==============================================*/
+@viewport {
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+  line-height: 1;
+  font-family: sans-serif;
+}
+nav ol,
+nav ul,
+.menu ol,
+.menu ul,
+ol.menu,
+ul.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li,
+.menu li {
+  display: inline-block;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+b,strong {
+  font-weight: bold;
+}
+img {
+  display: block;
+}
+img, embed, object, video {
+  max-width: 100%;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+button,
+input,
+textarea {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+a,
+button,
+imput,
+textarea,
+img {
+  outline: none;
+}
+textarea {
+  resize: none;
+  padding: 5px;
+}
+
+.clear:after {clear: both;content: '';display: block;font-size: 0;line-height: 0;visibility: hidden;width: 0;height: 0}
+/* SETTINGS
+==============================================*/
+
+/* UNIVERSAL
+==============================================*/
+body {}
+p {
+  line-height: 1.5;
+  margin: 10px 0;
+}
+p:before {
+  content: "";
+  padding: 0 0 0 20px;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
+a:link,
+a:visited {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  color: #000;
+  text-decoration: underline;
+}
+
+button {
+  background: #7db9e8;
+  background: -moz-linear-gradient(top,  #7db9e8 0%, #207cca 49%, #2989d8 50%, #1e5799 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7db9e8), color-stop(49%,#207cca), color-stop(50%,#2989d8), color-stop(100%,#1e5799));
+  background: -webkit-linear-gradient(top,  #7db9e8 0%,#207cca 49%,#2989d8 50%,#1e5799 100%);
+  background: -o-linear-gradient(top,  #7db9e8 0%,#207cca 49%,#2989d8 50%,#1e5799 100%);
+  background: -ms-linear-gradient(top,  #7db9e8 0%,#207cca 49%,#2989d8 50%,#1e5799 100%);
+  background: linear-gradient(to bottom,  #7db9e8 0%,#207cca 49%,#2989d8 50%,#1e5799 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #000;
+  border-radius: 6px;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+button:hover {
+  background: #1e5799;
+  background: -moz-linear-gradient(bottom,  #7db9e8 0%, #207cca 49%, #2989d8 50%, #1e5799 100%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0%,#7db9e8), color-stop(49%,#207cca), color-stop(50%,#2989d8), color-stop(100%,#1e5799));
+  background: -webkit-linear-gradient(bottom,  #7db9e8 0%,#207cca 49%,#2989d8 50%,#1e5799 100%);
+  background: -o-linear-gradient(bottom,  #7db9e8 0%,#207cca 49%,#2989d8 50%,#1e5799 100%);
+  background: -ms-linear-gradient(bottom,  #7db9e8 0%,#207cca 49%,#2989d8 50%,#1e5799 100%);
+  background: linear-gradient(to top,  #7db9e8 0%,#207cca 49%,#2989d8 50%,#1e5799 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
+}
+button:disabled {
+  color: #000;
+  cursor: auto;
+  background: #7db9e8;
+  background: -moz-linear-gradient(top,  #7db9e8 0%, #207cca 49%, #2989d8 50%, #1e5799 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7db9e8), color-stop(49%,#207cca), color-stop(50%,#2989d8), color-stop(100%,#1e5799));
+  background: -webkit-linear-gradient(top,  #7db9e8 0%,#207cca 49%,#2989d8 50%,#1e5799 100%);
+  background: -o-linear-gradient(top,  #7db9e8 0%,#207cca 49%,#2989d8 50%,#1e5799 100%);
+  background: -ms-linear-gradient(top,  #7db9e8 0%,#207cca 49%,#2989d8 50%,#1e5799 100%);
+  background: linear-gradient(to bottom,  #7db9e8 0%,#207cca 49%,#2989d8 50%,#1e5799 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+html {
+  background: #2b2322 url('../imgs/design/bg-0.jpg') repeat-x fixed center;
+  margin: 0;
+  padding: 0;
+  height: 100%
+}
+body {
+  background: url('../imgs/design/bg-1.png') repeat center;
+  margin: 0;
+  padding: 0;
+  display: block;
+  min-height: 100%
+}
+.mainContainer {
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px 0 50px 0;
+}
+section,
+.header nav {
+  background: rgba(255,255,255,.85);
+  border: 1px solid rgba(255,255,255,.75);
+  box-shadow: 0 0 10px 8px rgba(255,255,255,.75);
+  padding: 10px;
+  margin-bottom: 50px;
+}
+.sideers {
+  position: fixed;
+  top: 0;
+  display: block;
+  width: 20%;
+  height: 100%;
+  background: transparent;
+}
+.sideers.left {
+  left: 0;
+  background: transparent;
+  background: -moz-linear-gradient(left,  rgba(0,0,0,1) 10%, rgba(0,0,0,0) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(10%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,0)));
+  background: -webkit-linear-gradient(left, rgba(0,0,0,1) 10%,rgba(0,0,0,0) 100%);
+  background: -o-linear-gradient(left, rgba(0,0,0,1) 10%,rgba(0,0,0,0) 100%);
+  background: -ms-linear-gradient(left, rgba(0,0,0,1) 10%,rgba(0,0,0,0) 100%);
+  background: linear-gradient(to right,  rgba(0,0,0,1) 10%,rgba(0,0,0,0) 100%);
+}
+.sideers.right {
+  right: 0;
+  background: transparent;
+  background: -moz-linear-gradient(right,  rgba(0,0,0,1) 10%, rgba(0,0,0,0) 100%);
+  background: -webkit-gradient(linear, right top, left top, color-stop(10%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,0)));
+  background: -webkit-linear-gradient(right, rgba(0,0,0,1) 10%,rgba(0,0,0,0) 100%);
+  background: -o-linear-gradient(right, rgba(0,0,0,1) 10%,rgba(0,0,0,0) 100%);
+  background: -ms-linear-gradient(right, rgba(0,0,0,1) 10%,rgba(0,0,0,0) 100%);
+  background: linear-gradient(to left,  rgba(0,0,0,1) 10%,rgba(0,0,0,0) 100%);
+}
+/* UNIVERSAL
+==============================================*/

@@ -1,0 +1,11 @@
+/* IMAGE ===================== */
+.imageContainer {
+  height: 100%;
+  background: #000;
+  background: rgba(0, 0, 0, .2);
+}
+.imageContainer img {
+  height: 100%;
+  margin: 0 auto;
+}
+/* IMAGE ===================== */
