@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <section className="header">
       <h1>
-        <Link to="/">Play Date</Link>
+        <Link to="./">Play Date</Link>
       </h1>
       {/* TODO: Do I need a menu? */}
       {/* <nav ng-if="vm.menu.length >= 1">
